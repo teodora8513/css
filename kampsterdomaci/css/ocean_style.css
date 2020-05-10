@@ -1,0 +1,91 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 10px;
+  
+  
+
+}
+
+head{
+    
+}
+
+
+nav a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    color: darkgrey;
+    display: inline-block;
+    line-height: 3.333em;
+    padding: 0 10px 0 20px;
+    text-decoration: none;
+    
+}
+
+
+ul{
+    list-style: none;
+}
+li{
+   display: inline;
+    position: relative;   
+    padding-left: 15px;
+
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+.zaglavlje{
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgba(127,255,212, 0.5), white);
+
+}
+
+.zaglavlje-navigacija{
+    
+}
+
+#naslov{
+ font-family: 'Dancing Script', cursive;
+ font-size: 40px;
+text-align: center;
+}
+
+#podnaslov{
+ font-family: 'Dancing Script', cursive;
+ font-size: 20px;
+ text-align: match-parent;
+}
+
+p{
+    padding: 20px;
+    font-family: cursive;
+    border-style: hidden;
+    box-shadow: 10px 10px 10px aquamarine ;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: hidden;
+}
+img{
+    box-shadow: 10px 15px 10px aquamarine;
+}
+.s{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 25%;
+}
+footer{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 30px;
+    background-image: linear-gradient(to top, red, white);
+}
+</style>
